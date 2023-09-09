@@ -1,0 +1,92 @@
+/*******************************************************************************
+* BASIC
+*******************************************************************************/
+
+body {
+  color: #555;
+  font-size: 12px;
+  line-height: 18px;
+  background: #222 url(../images/background.png) repeat;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+  font-size: 3em;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+  display:none;
+  margin:40px;
+}
+
+@-webkit-keyframes greenPulse {
+from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+
+
+#back {
+  width: 300px;
+  height: 73px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: transparent url(../images/back-green.png) no-repeat top left;
+  cursor: pointer;
+ display:none;
+float:right;
+}
+
+
+#wrapper-fade {
+position: absolute;
+top:15%;
+left:30%;
+right:30%;
+z-index: 1;
+margin: 0;
+display:none;
+}
+
+#skin{
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background: transparent;
+  z-index: 1;
+  cursor: pointer;
+  display:none;
+}
+
+
+.btndemo {
+font-size: 23px;
+width: 180px;
+margin: 10px;
+line-height: 20px;
+display: inline-block;
+text-decoration: none;
+padding: 12px 10px;
+text-transform: uppercase;
+cursor: pointer;
+background: #0079c2;;
+color: #fff;
+border-radius: 2px;
+text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+ 
+.btndemo:active {
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-o-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+.btndemo:hover {color:#fff; background:#df3e7b;}
+

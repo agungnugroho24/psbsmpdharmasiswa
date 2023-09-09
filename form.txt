@@ -1,0 +1,45 @@
+Identitas calon siswa
+no.pendaftaran
+nama lengkap
+nisn
+jenis kelamin
+tempat lahir
+tanggal lahir
+agama
+anak ke
+status dalam keluarga
+alamat
+no.rumah
+rt/rw
+kota
+kode pos
+telp
+
+data asal sekolah
+ijazah sd/mi
+a. tahun
+b. nomor ijazah
+sd/mi
+a. nama sekolah
+b. alamat sekolah
+
+identitas orang tua wali
+nama ayah
+pekerjaan
+namaibu
+pekerjaan
+alamat
+no.rumah
+rt/rw
+kota
+kode pos
+telp
+nama wali murid
+pekerjaan wali murid
+alamat wali murid
+
+Photo
+
+Tangerang, 
+
+Orang tua siswa         Calon siswa
